@@ -1,0 +1,59 @@
+* {
+    text-align: center;
+}
+
+.searchBar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.inputSearchbar {
+    width: 300px;
+}
+
+.box1 {
+    background-color: #e9ecef;
+    margin-top: 4vh;
+}
+
+.google {
+    font-size: 100px;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#aboutgoogle {
+    font-size: 40px;
+    display: block;
+}
+
+.box2 {
+    background-color: #e9ecef;
+}
+
+.c-icon {
+    font-size: 15px;
+}
+
+button {
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 600px) {
+    .box1 {
+        width: 100vw;
+    }
+    .box2 {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .box1 {
+        width: 95vw;
+    }
+}
